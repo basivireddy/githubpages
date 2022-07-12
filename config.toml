@@ -1,4 +1,4 @@
-Baseurl = "https://basivireddy.github.io/"
+Baseurl = "https://basivireddy.github.io/githubpages/"
 LanguageCode = "en-us"
 Title = "the website title shown on the tab"
 theme = "gohugo-theme-ananke"
@@ -39,7 +39,7 @@ canonifyurls = true
     weight = 40
 
 [permalinks]
-#post = "/:slug/"​
+#post = "/:slug/"
 
 [sitemap]
     ChangeFreq = ""
