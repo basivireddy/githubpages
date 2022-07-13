@@ -26,7 +26,7 @@ canonifyurls = true
     url = "/"
     
 [[menu.main]]
-    name = "Contact"
+    name = "Contacteu"
     weight = 0
     identifier = "contact" # this button will refer to a markdown file named "contact" in the content folder
     pre = "<br />"
