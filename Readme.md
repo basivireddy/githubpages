@@ -6,9 +6,15 @@ hugo new site mysite
 ```
 
 
-### Run Servser
+### Run Server
 ```
 hugo server
+```
+
+or 
+
+```
+docker run --rm -it  -p 1313:1313   -v $(pwd):/src   klakegg/hugo server
 ```
 
 ### Publish  Code
@@ -16,6 +22,11 @@ hugo server
 hugo -d docs/
 ```
 
+or
+
+```
+docker run --rm -it  -p 1313:1313   -v $(pwd):/src   klakegg/hugo -d docs/
+```
 
 
 ### Useful Links:
